@@ -58,7 +58,7 @@ command+=" -b ubuntu-fs/root:/dev/shm"
 #command+=" -b /data/data/com.termux/files/home:/root"
 ## uncomment the following line to mount /sdcard directly to / 
 command+=" -b /sdcard"
-command+=" -w /root"
+command+=" -w /home"
 command+=" /usr/bin/env -i"
 command+=" HOME=/home"
 command+=" PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/games:/usr/local/games"
